@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+.home{
+    height: 530px;
+    width: 100%;
+    border-top: 5px solid rgb(56, 162, 233);
+    border-bottom: 5px solid rgb(56, 162, 233);
+}
+.sec1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 250px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    animation: fontsize 2s ease-in 0s 1 normal;
+}
+.img{
+     background-image: url(pich.png);
+     background-size: cover;
+     height: 400px;
+     width: 400px;
+     display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: 48%;
+    left: 37%;
+    border-radius: 40%;
+}
+@keyframes fontsize {
+    from{
+        font-size: 100px;
+    }
+    to{
+        font-size: 250px;
+    }
+    
+}
+.about{
+    height: 530px;
+    width: 100%;
+    border-top: 5px solid rgb(56, 162, 233);
+    background-color: black;
+
+}
+.about{
+    display: flex;
+}
+.sec11{
+    height: 70%;
+    width: 30%;
+    display: inline-block;
+    background-image: url(pich.png);
+    background-size: cover;
+    margin-top: 150px;
+    animation: pic 3s linear 3s 1 normal;
+}
+@keyframes pic {
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 150px;
+    }
+}
+.sec-about{
+     height: 100%;
+    width: 60%;
+    display: inline-block;
+    color: white;
+    margin-top: 50px;
+}
+h1{
+    font-size: 60px;
+    color: rgb(56, 162, 233);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------edu section -------*/
+.edu{
+    height: 530px;
+    width: 100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: rgb(56, 162, 233);
+}
+#edu-add{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 70px;
+}
+.edu-sec{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.edu-logo{
+    height: 100%;
+    width: 20%;
+    background-image: url(edu.png);
+    background-size: cover;
+}
+.edu-para{
+    height: 100%;
+    width: 40%;
+    margin-left: 80px;
+
+}
+.edu1{
+    height: 6.4rem;
+    width: 100%;
+    color: black;
+    border-left: 2px solid black;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#heading{
+    font-size: 60px;
+    color: black;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+/*-----skills section------*/
+.skills{
+    height: 530px;
+    width: 100%;
+    background-color: black;
+}
+.skill-sec{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill1{
+    height: 100%;
+    width: 20%;
+     border: 5px solid white;
+     text-align: center;
+}
+.loader{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    border: 18px solid rgb(56, 162, 233);
+    border-top: 18px solid white;
+    animation: spinloader 5s linear 0s infinite normal;
+    margin-left: 30px;
+}
+@keyframes spinloader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.para{
+   color: white; 
+   text-align: center;
+   margin-top: 20px;
+}
+/*---------Project slides-------*/
+.projects{
+    height: 530px;
+    width: 100%;
+    border-top: 5px solid rgb(56, 162, 233);
+    background-color: rgb(56, 162, 233);
+}
+.upper h1 {
+    color: black;
+    text-align: center;
+}
+#head{
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+.pro-pics{
+    height: 70%;
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.pic1{
+    height: 100%;
+    width: 50%;
+    border: 8px solid black;
+    background-image: url(cep2.jpeg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(circuit\ 2.jpeg);
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    border: 8px solid black;
+}
+.proj2{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(56, 162, 233);
+    border: 2px solid black;
+}
+.pic3{
+    height: 100%;
+    width: 50%;
+    border: 8px solid black;
+    background-image: url(summer1\ project.jpeg);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(summer\ project\ 2.jpeg);
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    border: 8px solid black;
+}
+.pdf{
+    display: block;
+}
+
+
+/*--------certificates-------*/
+.certifi{
+    height: 950px;
+    width: 100%;
+    border-bottom: 2px solid rgb(56, 162, 233);
+    background-color: black;
+}
+#cer-head{
+    color: white;
+    text-align: center;
+}
+#add{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.cert-sec1{
+    height: 39%;
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    animation: place 5s ease-in-out 5 normal;
+}
+.cer1{
+    height: 100%;
+    width: 40%;
+    border: 10px solid white;
+    background-image: url(certificate.jpeg);
+    background-size: cover;
+}
+.cer2{
+    height: 100%;
+    width: 40%;
+    border: 10px solid white;
+    background-image: url(certi2.png);
+    background-size: cover;
+}
+.cer3{
+    height: 100%;
+    width: 40%;
+    border: 10px solid white;
+    background-image: url(certi3.png);
+    background-size: cover;
+}
+.cer4{
+    height: 100%;
+    width: 40%;
+    border: 10px solid white;
+    background-image: url(certi4.png);
+    background-size: cover;
+}
+@keyframes place {
+    from{
+        height: 10%;
+    }
+    to{
+       height: 40%;
+    }
+}
+/*-----Contact----*/
+.contact{
+    height: 530px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+#cont-para{
+    color: white;
+    text-align: center;
+}
+#cont-head{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    animation: size 3s ease-in 3 normal;
+}
+.links{
+    height: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.email{
+    height: 100%;
+    width: 40%;
+    background-image: url(Glogo.png);
+    background-size: cover;
+    margin-top: 15px;
+}
+.linkedin{
+     height: 100%;
+     width: 35%;
+     background-image: url(link.logo.png);
+    background-size: cover;
+}
+.cont-links{
+    height: 10%;
+    width: 40%;
+     display: flex;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+button{
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(56, 162, 233);
+}
+#e{
+    width: 50%;
+    height: 40%;
+}
+@keyframes size {
+    from{
+        font-size: 50px;
+    }
+    to{
+        font-size: 100px;
+    }
+}
+/* ==========================================================
+                TABLET (768px - 1024px)
+========================================================== */
+
+@media screen and (max-width:1024px){
+
+/* HOME */
+.sec1{
+    font-size:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.img{
+    width:260px;
+    height:260px;
+    left:50%;
+    top:58%;
+    right:auto;
+    transform:translate(-50%,-50%);
+}
+
+/* ABOUT */
+.about{
+    height:auto;
+    flex-direction:column;
+    align-items:center;
+    padding:50px 20px;
+}
+
+.sec11{
+    width:250px;
+    height:250px;
+    margin-top:20px;
+}
+
+.sec-about{
+    width:90%;
+    text-align:center;
+    margin-top:30px;
+}
+
+/* EDUCATION */
+
+.edu{
+    height:auto;
+    padding-bottom:40px;
+}
+
+.edu-sec{
+    flex-direction:column;
+    gap:30px;
+}
+
+.edu-logo{
+    width:220px;
+    height:220px;
+}
+
+.edu-para{
+    width:90%;
+    margin-left:0;
+}
+
+/* SKILLS */
+
+.skills{
+    height:auto;
+    padding-bottom:40px;
+}
+
+.skill-sec{
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.skill1{
+    width:40%;
+    height:280px;
+}
+
+.loader{
+    margin:20px auto;
+}
+
+/* PROJECTS */
+
+.projects,
+.proj2{
+    height:auto;
+    padding-bottom:40px;
+}
+
+.pro-pics{
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4{
+    width:85%;
+    height:280px;
+}
+
+/* CERTIFICATES */
+
+.certifi{
+    height:auto;
+    padding-bottom:40px;
+}
+
+.cert-sec1{
+    flex-wrap:wrap;
+    height:auto;
+    gap:20px;
+}
+
+.cer1,
+.cer2,
+.cer3,
+.cer4{
+    width:45%;
+    height:250px;
+}
+
+/* CONTACT */
+
+.contact{
+    height:auto;
+    padding-bottom:40px;
+}
+
+.links{
+    width:70%;
+    margin:40px auto;
+}
+
+}
+
+
+
+/* ==========================================================
+                    MOBILE (767px)
+========================================================== */
+
+@media screen and (max-width:767px){
+
+h1{
+    font-size:38px;
+}
+
+.home{
+    height:450px;
+}
+
+.sec1{
+    font-size:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.img{
+    width:170px;
+    height:170px;
+    left:50%;
+    top:60%;
+    right:auto;
+    transform:translate(-50%,-50%);
+}
+
+/* ABOUT */
+
+.about{
+    flex-direction:column;
+    height:auto;
+    padding:30px 15px;
+}
+
+.sec11{
+    width:180px;
+    height:180px;
+    margin-top:10px;
+}
+
+.sec-about{
+    width:100%;
+    margin-top:20px;
+    text-align:center;
+}
+
+.sec-about p{
+    text-align:justify;
+    line-height:1.7;
+}
+
+/* EDUCATION */
+
+.edu{
+    height:auto;
+    padding-bottom:30px;
+}
+
+#heading,
+#edu-add{
+    margin-left:20px;
+}
+
+.edu-sec{
+    flex-direction:column;
+    margin-top:30px;
+}
+
+.edu-logo{
+    width:170px;
+    height:170px;
+}
+
+.edu-para{
+    width:95%;
+    margin-left:0;
+}
+
+.edu1{
+    height:auto;
+    padding:10px 0;
+}
+
+pre{
+    white-space:pre-wrap;
+}
+
+/* SKILLS */
+
+.skills{
+    height:auto;
+    padding-bottom:30px;
+}
+
+.skill-sec{
+    flex-direction:column;
+    gap:20px;
+}
+
+.skill1{
+    width:90%;
+    height:260px;
+}
+
+.loader{
+    width:140px;
+    height:140px;
+    margin:20px auto;
+}
+
+/* PROJECTS */
+
+.projects,
+.proj2{
+    height:auto;
+    padding-bottom:30px;
+}
+
+.pro-pics{
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4{
+    width:95%;
+    height:200px;
+}
+
+/* CERTIFICATES */
+
+.certifi{
+    height:auto;
+    padding-bottom:30px;
+}
+
+.cert-sec1{
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    height:auto;
+}
+
+.cer1,
+.cer2,
+.cer3,
+.cer4{
+    width:90%;
+    height:200px;
+}
+
+/* CONTACT */
+
+.contact{
+    height:auto;
+    padding-bottom:30px;
+}
+
+#cont-head{
+    font-size:55px;
+}
+
+.links{
+    width:90%;
+    margin:30px auto;
+}
+
+.email,
+.linkedin{
+    width:100px;
+    height:80px;
+}
+
+}
